@@ -1,0 +1,108 @@
+[2021-11-01 20:23:49] [ INFO ] [Mesa.main:14] Estou Funcionando
+[2021-11-01 22:00:01] [ INFO ] [Mesa.main:59] Estou Funcionando
+[2021-11-01 22:04:49] [ INFO ] [Mesa.main:59] Estou Funcionando
+[2021-11-01 22:06:29] [ INFO ] [Mesa.main:60] Estou Funcionando
+[2021-11-01 22:08:10] [ INFO ] [Mesa.main:60] Estou Funcionando
+[2021-11-01 22:09:05] [ INFO ] [Mesa.main:60] Estou Funcionando
+[2021-11-01 22:58:41] [ INFO ] [Mesa.main:58] Estou Funcionando
+[2021-11-01 22:59:37] [ INFO ] [Mesa.main:58] Estou Funcionando
+[2021-11-01 23:01:57] [ INFO ] [Mesa.main:58] Estou Funcionando
+[2021-11-01 23:04:07] [ INFO ] [Mesa.main:56] Estou Funcionando
+[2021-11-01 23:08:31] [ WARN ] [Mesa.main:61] O user Lamark Neris
+[2021-11-01 23:08:31] [ WARN ] [Mesa.main:61] O user Mark Reis
+[2021-11-01 23:08:31] [ WARN ] [Mesa.main:61] O user Marcos Zeny
+[2021-11-01 23:08:31] [ INFO ] [Mesa.main:46] Marcos
+[2021-11-01 23:08:31] [ WARN ] [Mesa.main:61] O user Lamark Neris
+[2021-11-01 23:08:31] [ WARN ] [Mesa.main:61] O user Mark Reis
+[2021-11-01 23:08:31] [ INFO ] [Mesa.main:54] Estou Funcionando
+[2021-11-01 23:09:14] [ WARN ] [Mesa.main:61] O user Lamark Neris
+[2021-11-01 23:09:14] [ WARN ] [Mesa.main:61] O user Mark Reis
+[2021-11-01 23:09:14] [ WARN ] [Mesa.main:61] O user Marcos Zeny
+[2021-11-01 23:09:14] [ INFO ] [Mesa.main:46] Marcos
+[2021-11-01 23:09:14] [ WARN ] [Mesa.main:61] O user Lamark Neris
+[2021-11-01 23:09:14] [ WARN ] [Mesa.main:61] O user Mark Reis
+[2021-11-01 23:09:14] [ INFO ] [Mesa.main:54] O user Marcos foi deletado
+[2021-11-02 13:37:29] [ INFO ] [Mesa.main:54] O user Marcos foi deletado
+[2021-11-02 13:39:48] [ WARN ] [Mesa.main:61] O user Lamark Neris
+[2021-11-02 13:39:48] [ WARN ] [Mesa.main:61] O user Mark Reis
+[2021-11-02 13:39:48] [ WARN ] [Mesa.main:61] O user Marcos Zeny
+[2021-11-02 13:39:48] [ INFO ] [Mesa.main:46] Marcos
+[2021-11-02 13:39:48] [ WARN ] [Mesa.main:61] O user Lamark Neris
+[2021-11-02 13:39:48] [ WARN ] [Mesa.main:61] O user Mark Reis
+[2021-11-02 13:39:48] [ INFO ] [Mesa.main:54] O user Marcos foi deletado
+[2021-11-02 20:35:53] [ ERROR] [Main:42] Impossível inserir funcionários com os dados iguaisUnique index or primary key violation: "PRIMARY KEY ON PUBLIC.FUNCIONARIO(ID) [2, 'Mark', 'Reis', 22, 2334]"; SQL statement:
+INSERT INTO funcionario (Id, nome, sobrenome, idade, matricula )VALUES (2, 'Marcos', 'Zeny', 23, 1232) [23505-199]
+[2021-11-02 20:35:53] [ INFO ] [Main:46] Marcos
+[2021-11-02 20:47:56] [ ERROR] [Main:43] Impossível inserir funcionários com os dados iguaisUnique index or primary key violation: "PRIMARY KEY ON PUBLIC.FUNCIONARIO(ID) [2, 'Mark', 'Reis', 22, 2334]"; SQL statement:
+INSERT INTO funcionario (Id, nome, sobrenome, idade, matricula )VALUES (2, 'Marcos', 'Zeny', 23, 1232) [23505-199]
+[2021-11-02 20:53:58] [ ERROR] [Main:45] Impossível inserir funcionários com os dados iguaisUnique index or primary key violation: "PRIMARY KEY ON PUBLIC.FUNCIONARIO(ID) [2, 'Mark', 'Reis', 22, 2334]"; SQL statement:
+INSERT INTO funcionario (Id, nome, sobrenome, idade, matricula )VALUES (2, 'Marcos', 'Zeny', 23, 1232) [23505-199]
+[2021-11-02 20:55:06] [ ERROR] [Main:45] Impossível inserir funcionários com os dados iguaisUnique index or primary key violation: "PRIMARY KEY ON PUBLIC.FUNCIONARIO(ID) [2, 'Mark', 'Reis', 22, 2334]"; SQL statement:
+INSERT INTO funcionario (Id, nome, sobrenome, idade, matricula )VALUES (2, 'Marcos', 'Zeny', 23, 1232) [23505-199]
+[2021-11-02 20:56:41] [ ERROR] [Main:45] Impossível inserir funcionários com os dados iguaisUnique index or primary key violation: "PRIMARY KEY ON PUBLIC.FUNCIONARIO(ID) [2, 'Mark', 'Reis', 22, 2334]"; SQL statement:
+INSERT INTO funcionario (Id, nome, sobrenome, idade, matricula )VALUES (2, 'Marcos', 'Zeny', 23, 1232) [23505-199]
+[2021-11-02 20:56:41] [ INFO ] [Main:63] Id: 1 nome: Lamark sobrenome: Neris idade: 21 matricula: 2342
+[2021-11-02 20:56:41] [ INFO ] [Main:63] Id: 2 nome: Mark sobrenome: Reis idade: 22 matricula: 2334
+[2021-11-02 21:08:21] [ ERROR] [Main:50] Impossível inserir funcionários com os dados iguaisUnique index or primary key violation: "PRIMARY KEY ON PUBLIC.FUNCIONARIO(ID) [2, 'Mark', 'Reis', 22, 2334]"; SQL statement:
+INSERT INTO funcionario (Id, nome, sobrenome, idade, matricula )VALUES (2, 'Marcos', 'Zeny', 23, 1232) [23505-199]
+[2021-11-02 21:08:21] [ INFO ] [Main:76] Id: 1 nome: Lamark sobrenome: Neris idade: 21 matricula: 2342
+[2021-11-02 21:08:21] [ INFO ] [Main:76] Id: 2 nome: Mark sobrenome: Reis idade: 22 matricula: 2334
+[2021-11-02 21:08:21] [ DEBUG] [Main:57] O Funcionario: Lamark foi atualizado!
+[2021-11-02 21:08:21] [ DEBUG] [Main:57] O Funcionario: Markus foi atualizado!
+[2021-11-02 21:08:21] [ INFO ] [Main:61] O funcionario Joao foi deletado
+[2021-11-02 21:08:21] [ INFO ] [Main:76] Id: 1 nome: Lamark sobrenome: Neris idade: 21 matricula: 2342
+[2021-11-02 21:08:21] [ INFO ] [Main:76] Id: 2 nome: Markus sobrenome: Reis idade: 22 matricula: 2334
+[2021-11-02 21:10:03] [ ERROR] [Main:51] Impossível inserir funcionários com os dados iguaisUnique index or primary key violation: "PRIMARY KEY ON PUBLIC.FUNCIONARIO(ID) [2, 'Mark', 'Reis', 22, 2334]"; SQL statement:
+INSERT INTO funcionario (Id, nome, sobrenome, idade, matricula )VALUES (2, 'Marcos', 'Zeny', 23, 1232) [23505-199]
+[2021-11-02 21:10:03] [ INFO ] [Main:77] Id: 1 nome: Lamark sobrenome: Neris idade: 21 matricula: 2342
+[2021-11-02 21:10:03] [ INFO ] [Main:77] Id: 2 nome: Mark sobrenome: Reis idade: 22 matricula: 2334
+[2021-11-02 21:10:03] [ DEBUG] [Main:58] O Funcionario: Lamark foi atualizado!
+[2021-11-02 21:10:03] [ DEBUG] [Main:58] O Funcionario: Markus foi atualizado!
+[2021-11-02 21:10:03] [ INFO ] [Main:62] O funcionario Joao foi deletado
+[2021-11-02 21:10:03] [ INFO ] [Main:77] Id: 1 nome: Lamark sobrenome: Neris idade: 21 matricula: 2342
+[2021-11-02 21:10:03] [ INFO ] [Main:77] Id: 2 nome: Markus sobrenome: Reis idade: 22 matricula: 2334
+[2021-11-02 21:14:40] [ ERROR] [Main:54] Impossível inserir funcionários com os dados iguaisUnique index or primary key violation: "PRIMARY KEY ON PUBLIC.FUNCIONARIO(ID) [2, 'Mark', 'Reis', 22, 2334]"; SQL statement:
+INSERT INTO funcionario (Id, nome, sobrenome, idade, matricula )VALUES (2, 'Marcos', 'Zeny', 23, 1232) [23505-199]
+[2021-11-02 21:14:40] [ INFO ] [Main:82] Id: 1 nome: Lamark sobrenome: Neris idade: 21 matricula: 2342
+[2021-11-02 21:14:40] [ INFO ] [Main:82] Id: 2 nome: Mark sobrenome: Reis idade: 22 matricula: 2334
+[2021-11-02 21:14:40] [ DEBUG] [Main:61] O Funcionario: Lamark foi atualizado!
+[2021-11-02 21:14:40] [ DEBUG] [Main:61] O Funcionario: Markus foi atualizado!
+[2021-11-02 21:14:40] [ INFO ] [Main:65] O funcionario Joao foi deletado
+[2021-11-02 21:15:03] [ ERROR] [Main:54] Impossível inserir funcionários com os dados iguaisUnique index or primary key violation: "PRIMARY KEY ON PUBLIC.FUNCIONARIO(ID) [2, 'Mark', 'Reis', 22, 2334]"; SQL statement:
+INSERT INTO funcionario (Id, nome, sobrenome, idade, matricula )VALUES (2, 'Marcos', 'Zeny', 23, 1232) [23505-199]
+[2021-11-02 21:15:03] [ INFO ] [Main:82] Id: 1 nome: Lamark sobrenome: Neris idade: 21 matricula: 2342
+[2021-11-02 21:15:03] [ INFO ] [Main:82] Id: 2 nome: Mark sobrenome: Reis idade: 22 matricula: 2334
+[2021-11-02 21:15:03] [ DEBUG] [Main:61] O Funcionario: Lamark foi atualizado!
+[2021-11-02 21:15:03] [ DEBUG] [Main:61] O Funcionario: Markus foi atualizado!
+[2021-11-02 21:15:03] [ INFO ] [Main:65] O funcionario Joao foi deletado
+[2021-11-02 21:15:03] [ INFO ] [Main:67] O usuario Jose foi deletado
+[2021-11-02 21:15:03] [ INFO ] [Main:82] Id: 1 nome: Lamark sobrenome: Neris idade: 21 matricula: 2342
+[2021-11-02 21:15:03] [ INFO ] [Main:82] Id: 2 nome: Markus sobrenome: Reis idade: 22 matricula: 2334
+[2021-11-02 21:18:30] [ ERROR] [Main:54] Impossível inserir funcionários com os dados iguaisUnique index or primary key violation: "PRIMARY KEY ON PUBLIC.FUNCIONARIO(ID) [2, 'Mark', 'Reis', 22, 2334]"; SQL statement:
+INSERT INTO funcionario (Id, nome, sobrenome, idade, matricula )VALUES (2, 'Marcos', 'Zeny', 23, 1232) [23505-199]
+[2021-11-02 21:18:30] [ INFO ] [Main:82] Id: 1 nome: Lamark sobrenome: Neris idade: 21 matricula: 2342
+[2021-11-02 21:18:30] [ INFO ] [Main:82] Id: 2 nome: Mark sobrenome: Reis idade: 22 matricula: 2334
+[2021-11-02 21:18:30] [ DEBUG] [Main:61] O Funcionario: Lamark foi atualizado!
+[2021-11-02 21:18:30] [ DEBUG] [Main:61] O Funcionario: Markus foi atualizado!
+[2021-11-02 21:18:30] [ INFO ] [Main:65] O funcionario Joao foi deletado
+[2021-11-02 21:18:30] [ INFO ] [Main:67] O funcionario Jose foi deletado
+[2021-11-02 21:18:30] [ INFO ] [Main:82] Id: 1 nome: Lamark sobrenome: Neris idade: 21 matricula: 2342
+[2021-11-02 21:18:30] [ INFO ] [Main:82] Id: 2 nome: Markus sobrenome: Reis idade: 22 matricula: 2334
+[2021-11-02 21:20:58] [ ERROR] [Main:54] Impossível inserir funcionários com os dados iguaisUnique index or primary key violation: "PRIMARY KEY ON PUBLIC.FUNCIONARIO(ID) [2, 'Mark', 'Reis', 22, 2334]"; SQL statement:
+INSERT INTO funcionario (Id, nome, sobrenome, idade, matricula )VALUES (2, 'Marcos', 'Zeny', 23, 1232) [23505-199]
+[2021-11-02 21:20:58] [ INFO ] [Main:82] Id: 1 nome: Lamark sobrenome: Neris idade: 21 matricula: 2342
+[2021-11-02 21:20:58] [ INFO ] [Main:82] Id: 2 nome: Mark sobrenome: Reis idade: 22 matricula: 2334
+[2021-11-02 21:20:58] [ DEBUG] [Main:61] O Funcionario: Markus foi atualizado!
+[2021-11-02 21:20:58] [ INFO ] [Main:65] O funcionario Joao foi deletado
+[2021-11-02 21:20:58] [ INFO ] [Main:67] O funcionario Jose foi deletado
+[2021-11-02 21:20:58] [ INFO ] [Main:82] Id: 1 nome: Lamark sobrenome: Neris idade: 21 matricula: 2342
+[2021-11-02 21:20:58] [ INFO ] [Main:82] Id: 2 nome: Markus sobrenome: Reis idade: 22 matricula: 2334
+[2021-11-02 21:26:48] [ ERROR] [Main:54] Impossível inserir funcionários com os dados iguaisUnique index or primary key violation: "PRIMARY KEY ON PUBLIC.FUNCIONARIO(ID) [2, 'Mark', 'Reis', 22, 2334]"; SQL statement:
+INSERT INTO funcionario (Id, nome, sobrenome, idade, matricula )VALUES (2, 'Marcos', 'Zeny', 23, 1232) [23505-199]
+[2021-11-02 21:26:48] [ INFO ] [Main:82] Id: 1 nome: Lamark sobrenome: Neris idade: 21 matricula: 2342
+[2021-11-02 21:26:48] [ INFO ] [Main:82] Id: 2 nome: Mark sobrenome: Reis idade: 22 matricula: 2334
+[2021-11-02 21:26:48] [ DEBUG] [Main:61] O Funcionario: Markus foi atualizado!
+[2021-11-02 21:26:48] [ INFO ] [Main:65] O funcionario Joao foi deletado
+[2021-11-02 21:26:48] [ INFO ] [Main:67] O funcionario Jose foi deletado
+[2021-11-02 21:26:48] [ INFO ] [Main:82] Id: 1 nome: Lamark sobrenome: Neris idade: 21 matricula: 2342
+[2021-11-02 21:26:48] [ INFO ] [Main:82] Id: 2 nome: Markus sobrenome: Reis idade: 22 matricula: 2334
