@@ -1,0 +1,18 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+management:
+  info:
+    env:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: health,info 
+info:
+  author: Lamark Neris reis
+  mail: lamark.neris@gmail.com
+server:
+  port: ${PORT:9999}
+message: Generic
